@@ -23,7 +23,7 @@ Hệ thống nhúng giám sát góc nghiêng, va chạm xe và tự động gử
 > **⚠️ Lưu ý quan trọng về phần cứng:**
 > - Module 4G A7682S-V1 cần dòng đỉnh (Peak Current) lên tới **2A**. Cần cấp nguồn riêng 5V/2A cho module và **bắt buộc nối chung Mass (GND)** với bo mạch Arduino.
 > - Cần cấu hình Baud rate của module A7682S về `9600` bằng lệnh `AT+IPR=9600` 
-
+[sơ đồ](w
 ## 💻 Cấu trúc mã nguồn
 - `RDS.ino`: Chương trình chính (Main firmware), quản lý luồng thực thi liên tục đọc cảm biến, xử lý chuỗi NMEA GPS và điều khiển giao tiếp GSM.
 
