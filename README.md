@@ -14,7 +14,7 @@ Hệ thống nhúng giám sát góc nghiêng, va chạm xe và tự động gử
 | Linh kiện / Module | Chân Arduino | Giao thức / Chức năng | Ghi chú |
 | :--- | :--- | :--- | :--- |
 | **MPU-6050** | `SDA` / `SCL` | I2C (Address `0x68`) | Đo góc nghiêng xe |
-| **GPS Module** | `D8 (TX)` / `D9 (RX)`| UART (`SoftwareSerial` 9600 baud) | Đọc dữ liệu định vị |
+| **GPS Module neo-6M** | `D8 (TX)` / `D9 (RX)`| UART (`SoftwareSerial` 9600 baud) | Đọc dữ liệu định vị |
 | **SIMCom A7682S-V1** | `D10 (RX)` / `D11 (TX)`| UART (`SoftwareSerial` 9600 baud) | Module 4G gửi SMS |
 | **Push Button** | `D2` | Digital Input (`INPUT_PULLUP`) | Giả lập va chạm |
 | **LED Cảnh báo** | `D3` | Digital Output | Nháy đèn báo động |
